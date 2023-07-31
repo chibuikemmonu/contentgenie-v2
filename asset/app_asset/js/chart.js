@@ -63,6 +63,7 @@ engagementChart.render();
 //👇🏽 Chart for => COMPARISON ACROSS NETWORKS
 var comparisonOptions = {
   series: [44, 55, 41, 17, 15],
+  labels: ["Facebook", "Instagram", "Twitter", "LinkedIn", "Pinterest"],
   chart: {
     width: 380,
     type: "donut",
